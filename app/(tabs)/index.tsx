@@ -4,7 +4,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { HelloWave } from '@/components/hello-wave';
 import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view'; 
+import { ThemedView } from '@/components/themed-view';
 import { Link } from 'expo-router';
 
 export default function HomeScreen() {
@@ -32,7 +32,7 @@ export default function HomeScreen() {
               android: 'cmd + m',
               web: 'F12',
             })}
-          </ThemedText>{' '}
+          </ThemedText>{' '} //nigger
           to open developer tools.
         </ThemedText>
       </ThemedView>
