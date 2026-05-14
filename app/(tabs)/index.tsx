@@ -22,7 +22,7 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 67: Suck a pupulik</ThemedText>
+        <ThemedText type="subtitle">Step 67: </ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
           Press{' '}
@@ -32,7 +32,7 @@ export default function HomeScreen() {
               android: 'cmd + m',
               web: 'F12',
             })}
-          </ThemedText>{' '} //nigger
+          </ThemedText>{' '} 
           to open developer tools.
         </ThemedText>
       </ThemedView>
