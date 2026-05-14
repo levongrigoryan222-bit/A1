@@ -4,13 +4,13 @@ import { Platform, StyleSheet } from 'react-native';
 import { HelloWave } from '@/components/hello-wave';
 import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
+import { ThemedView } from '@/components/themed-view'; 
 import { Link } from 'expo-router';
 
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#500404', dark: '#d8d0d2' }} 
+      headerBackgroundColor={{ light: '#500404', dark: '#d8d0d2' }}
       headerImage={
         <Image
           source={require('@/assets/images/partial-react-logo.png')}
@@ -22,7 +22,7 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 67: Suck a pupulik</ThemedText>
+        <ThemedText type="subtitle">Step 67: Try it</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
           Press{' '}
@@ -32,7 +32,7 @@ export default function HomeScreen() {
               android: 'cmd + m',
               web: 'F12',
             })}
-          </ThemedText>{' '} //nigger
+          </ThemedText>{' '}
           to open developer tools.
         </ThemedText>
       </ThemedView>
